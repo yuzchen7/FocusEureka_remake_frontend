@@ -1,0 +1,15 @@
+{
+  "originHash" : "30cd4dd0efa9e8af15746fdad3766a3a94f526913867051e6a92ea367328f42a",
+  "pins" : [
+    {
+      "identity" : "swiftfetch",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/yuzchen7/SwiftFetch",
+      "state" : {
+        "branch" : "main",
+        "revision" : "7910318abe90854ed9d7fe8f1dd42b510c5a7922"
+      }
+    }
+  ],
+  "version" : 3
+}

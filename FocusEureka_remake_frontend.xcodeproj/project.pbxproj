@@ -14,6 +14,7 @@
 		C403D5BB2C7FC2A200F16B46 /* FocusEureka_remake_frontendTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C403D5BA2C7FC2A200F16B46 /* FocusEureka_remake_frontendTests.swift */; };
 		C403D5C52C7FC2A200F16B46 /* FocusEureka_remake_frontendUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C403D5C42C7FC2A200F16B46 /* FocusEureka_remake_frontendUITests.swift */; };
 		C403D5C72C7FC2A200F16B46 /* FocusEureka_remake_frontendUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C403D5C62C7FC2A200F16B46 /* FocusEureka_remake_frontendUITestsLaunchTests.swift */; };
+		C403D5D52C7FC3CF00F16B46 /* SwiftFetch in Frameworks */ = {isa = PBXBuildFile; productRef = C403D5D42C7FC3CF00F16B46 /* SwiftFetch */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C403D5D52C7FC3CF00F16B46 /* SwiftFetch in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,6 +145,9 @@
 			dependencies = (
 			);
 			name = FocusEureka_remake_frontend;
+			packageProductDependencies = (
+				C403D5D42C7FC3CF00F16B46 /* SwiftFetch */,
+			);
 			productName = FocusEureka_remake_frontend;
 			productReference = C403D5A62C7FC2A100F16B46 /* FocusEureka_remake_frontend.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +220,9 @@
 				Base,
 			);
 			mainGroup = C403D59D2C7FC2A100F16B46;
+			packageReferences = (
+				C403D5D32C7FC3CF00F16B46 /* XCRemoteSwiftPackageReference "SwiftFetch" */,
+			);
 			productRefGroup = C403D5A72C7FC2A100F16B46 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -590,6 +598,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C403D5D32C7FC3CF00F16B46 /* XCRemoteSwiftPackageReference "SwiftFetch" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/yuzchen7/SwiftFetch";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C403D5D42C7FC3CF00F16B46 /* SwiftFetch */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C403D5D32C7FC3CF00F16B46 /* XCRemoteSwiftPackageReference "SwiftFetch" */;
+			productName = SwiftFetch;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C403D59E2C7FC2A100F16B46 /* Project object */;
 }
